@@ -1,0 +1,5 @@
+#Block Randomization
+library(psych) # make it active
+my.cond<-block.random(n=48, c(sex=2, drug=2))
+headtail(my.cond) #to show the first 4 and last 4 cases
+pairs.panels(my.cond) #visualizing block randomisation
